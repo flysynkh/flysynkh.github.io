@@ -747,6 +747,9 @@
 .icon-triangle-down:before {
     content: "\e951";
 }
+.icon-angle-up:before {
+    content: "\e7a6";
+}
 .icon-triangle-left:before {
     content: "\e952";
 }

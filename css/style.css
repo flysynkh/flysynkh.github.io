@@ -1980,7 +1980,28 @@ div.cs-select span {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #222222;
+  background: url(../images/ajax-loader.gif) center no-repeat #222222;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.scrollToTop{
+  width:40px;
+  height:40px;
+  padding:10px;
+  border-radius: 10px;
+  text-align:center;
+  font-weight: bold;
+  background: black;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top:550px;
+  right:1px;
+  display:none;
+}
+.scrollToTop:hover{
+  text-decoration:none;
+  background-color: #F78536;
+}
