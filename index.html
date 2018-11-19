@@ -26,40 +26,45 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/favicon/favicon.png">
-
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="shortcut icon" href="images/favicon/favicon.png">
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<!-- CS Select -->
-	<link rel="stylesheet" href="css/cs-select.css">
-	<link rel="stylesheet" href="css/cs-skin-border.css">
-	
-	<link rel="stylesheet" href="css/style.css">
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="plugin/OwlCarousel2-2.2.1/owl.carousel.css">
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="plugin/OwlCarousel2-2.2.1/owl.theme.default.css">
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Superfish -->
+		<link rel="stylesheet" href="css/superfish.css">
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- Date Picker -->
+		<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+		<!-- CS Select -->
+		<link rel="stylesheet" href="css/cs-select.css">
+		<link rel="stylesheet" href="css/cs-skin-border.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="plugin/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
 
 	</head>
 	<body>
+
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 
@@ -67,10 +72,10 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html">Fly<img src="images/logo/fwlogo.png" height="30" width="50"/>Weight</a></h1>
+					<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo/fwlogo.png" />Fly Weight</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
-                    <ul class="sf-menu" id="fh5co-primary-menu">
+                    <ul class="sf-menu" id="fh5co-primary-menu1">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="flight.html">Flights</a></li>
                         <li><a href="hotel.html">Bus</a></li>
@@ -78,21 +83,22 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
+
                     <nav id="fh5co-menu-wrap1" role="navigation">
                         <ul class="sf-menu" id="fh5co-primary-menu">
 
 
-                            <li>
+                            <!--<li>
                                 <a href="#"class="fh5co-sub-ddown">Manage Booking</a>
                                 <ul class="fh5co-sub-menu">
                                     <li><a href="#">print e-ticket</a></li>
                                     <li><a href="#">Cancle Booking</a></li>
-                                    <!--<li><a href="#">Check </a></li>
+                                    &lt;!&ndash;<li><a href="#">Check </a></li>
                                     <li><a href="#">Node JS</a></li>
-                                    <li><a href="#">Django &amp; Python</a></li>-->
+                                    <li><a href="#">Django &amp; Python</a></li>&ndash;&gt;
                                 </ul>
                             </li>
-
+-->
 							<li><a href="#"class="icon-user3"> Franchise</a>
 								<ul class="fh5co-sub-menu">
 									<li><a class="icon-user-plus" href="#"> Sign-In / Sing-Up</a></li>
@@ -108,10 +114,10 @@
 		</header>
 
 		<!-- end:header-top -->
-	
+
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/intro.png);">
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5"style="background-image: url(images/intro.png);">
 				<div class="desc">
 					<div class="container">
 						<div class="row">
@@ -297,70 +303,133 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div class="one-forth text-center"><img src="images/place/place-1.jpg" alt="goa" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3 >Goa</h3>
-								<span class="price">₹ </span>
-								<!--&lt;!&ndash;<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>&ndash;&gt;-->
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#" class="one-forth text-center"><img src="images/place/place-2.jpg" alt="Shimla" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Shimla</h3>
-								<span class="price">₹</span>
-								<!--<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>-->
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"class="one-forth text-center"><img src="images/place/place-3.jpg" alt="darjeeling" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Darjeeling</h3>
-								<!--<span>2 nights + Flight 4*Hotel</span>-->
-								<span class="price">₹</span>
-								<!--<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>-->
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"class="one-forth text-center"><img src="images/place/place-4.jpg" alt="Thailand" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Thailand</h3>
-								<!--<span>2 nights + Flight 4*Hotel</span>-->
-								<span class="price">₹</span>
-								<!--<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>-->
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"class="one-forth text-center"><img src="images/place/place-5.jpg" alt="bangkok" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Bangkok</h3>
-								<!--<span>2 nights + Flight 4*Hotel</span>-->
-								<span class="price">₹</span>
-								<!--<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>-->
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"class="one-forth text-center"><img src="images/place/place-6.jpg" alt="Andaman" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Andaman</h3>
-								<!--<span>2 nights + Flight 4*Hotel</span>-->
-								<span class="price">₹</span>
-								<!--<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>-->
-							</div>
-						</div>
-					</div>
+
+					<div class="container">
+						<div class="col-xs-12">
+							<div class="carousel slide " id="myCarousel">
+								<div class="carousel-inner">
+									<div class="item active">
+										<ul class="thumbnails">
+											<li class="col-sm-3">
+											<div class="fff">
+												<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+													<div href="#" class="one-forth text-center"><img src="images/place/place-1.jpg" alt="goa" class="img-responsive"></div>
+												</div>
+											</div>
+												<div class="caption animate-box" data-animate-effect="fadeIn">
+													<h3>Goa</h3>
+													<p class="price">₹</p>
+												</div>
+
+										</li>
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+														<div class="one-forth text-center"><img src="images/place/place-2.jpg" alt="goa" class="img-responsive"></div>
+													</div>
+												</div>
+													<div class="caption fh5co-tours animate-box" data-animate-effect="fadeIn">
+														<h3>Shimla</h3>
+														<p class="price">₹</p>
+													</div>
+
+											</li>
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+														<div class="one-forth text-center"><img src="images/place/place-3.jpg" alt="goa" class="img-responsive"></div>
+													</div>
+												</div>
+													<div class="caption fh5co-tours animate-box" data-animate-effect="fadeIn">
+														<h3>Darjeeling</h3>
+														<p class="price">₹</p>
+													</div>
+
+											</li>
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+														<div class="one-forth text-center"><img src="images/place/place-4.jpg" alt="goa" class="img-responsive"></div>
+													</div>
+												</div>
+													<div class="caption fh5co-tours animate-box" data-animate-effect="fadeIn">
+														<h3>Thailand</h3>
+														<p class="price">₹</p>
+													</div>
+
+											</li>
+										</ul>
+									</div><!-- /Slide1 -->
+									<div class="item">
+										<ul class="thumbnails">
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+														<div class="one-forth text-center"><img src="images/place/place-5.jpg" alt="goa" class="img-responsive"></div>
+													</div>
+												</div>
+													<div class="caption fh5co-tours animate-box" data-animate-effect="fadeIn">
+														<h3>Bangkok</h3>
+														<p class="price">₹</p>
+													</div>
+
+											</li>
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail animate-box" data-animate-effect="fadeIn">
+														<div class="one-forth text-center"><img src="images/place/place-6.jpg" alt="goa" class="img-responsive"></div>
+													</div>
+												</div>
+													<div class="caption fh5co-tours animate-box" data-animate-effect="fadeIn">
+														<h3>Andaman</h3>
+														<p class="price">₹</p>
+													</div>
+
+											</li>
+											<!--<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail">
+														<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+													</div>
+													<div class="caption">
+														<h4>Praesent commodo</h4>
+														<p>Nullam Condimentum Nibh Etiam Sem</p>
+														<a class="btn btn-mini" href="#">» Read More</a>
+													</div>
+												</div>
+											</li>
+											<li class="col-sm-3">
+												<div class="fff">
+													<div class="thumbnail">
+														<a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+													</div>
+													<div class="caption">
+														<h4>Praesent commodo</h4>
+														<p>Nullam Condimentum Nibh Etiam Sem</p>
+														<a class="btn btn-mini" href="#">» Read More</a>
+													</div>
+												</div>
+											</li>-->
+										</ul>
+									</div><!-- /Slide2 -->
+								</div>
+
+
+								<nav>
+									<ul class="control-box pager">
+										<li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+										<li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></li>
+									</ul>
+								</nav>
+								<!-- /.control-box -->
+
+							</div><!-- /#myCarousel -->
+
+						</div><!-- /.col-xs-12 -->
+
+					</div><!-- /.container -->
+
+
 				</div>
 			</div>
 		</div>
@@ -401,31 +470,31 @@
 	<!-- jQuery -->
 
 
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/sticky.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/sticky.js"></script>
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Superfish -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Date Picker -->
-	<script src="js/bootstrap-datepicker.min.js"></script>
-	<!-- CS Select -->
-	<script src="js/classie.js"></script>
-	<script src="js/selectFx.js"></script>
-	
-	<!-- Main JS -->
-	<script src="js/main.js"></script>
+		<!-- Stellar -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Superfish -->
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.js"></script>
+		<!-- Magnific Popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/magnific-popup-options.js"></script>
+		<!-- Date Picker -->
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<!-- CS Select -->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
 
 	</body>
 </html>
