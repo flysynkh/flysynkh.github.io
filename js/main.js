@@ -179,9 +179,10 @@
             interval: 2000
         })
     });*/
-    var box= document.getElementById("box")
-    window.addEventListener('load',function () {
-        box.style.display="none";
-    })
+    // LOADER
+    $(window).load(function() {
+        $("#preloader").on(700).fadeOut();
+        $(".preloader").on(700).fadeOut("slow");
+    });
 
 }());
