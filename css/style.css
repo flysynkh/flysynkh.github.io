@@ -369,7 +369,7 @@ figure {
 #fh5co-logo {
   position: relative;
   z-index: 2;
-  font-size: 28px;
+  font-size:25px;
   text-transform: uppercase;
   margin-top: 25px;
   font-weight: 700;
@@ -2030,7 +2030,7 @@ a {
 }
 
 .thumbnails li> .fff .caption {
-    background:#fff !important;
+    background:#F78536 !important;
     padding:10px
 }
 
@@ -2043,12 +2043,12 @@ ul.thumbnails {
 
 
 /* Thumbnail Box */
-.caption h4 {
-    color: #444;
+.caption h3 {
+    color: #F78536;
 }
 
 .caption p {
-    color: #999;
+    color: #F78536;
 }
 
 .fff > div:hover {
@@ -2121,7 +2121,7 @@ ul.thumbnails {
     position: relative;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .fff> div:after {
     opacity: 1;

@@ -174,10 +174,14 @@
         });
 
     });
-    $(document).ready(function() {
+  /*  $(document).ready(function() {
         $('.carousel').carousel({
             interval: 2000
         })
-    });
+    });*/
+    var box= document.getElementById("box")
+    window.addEventListener('load',function () {
+        box.style.display="none";
+    })
 
 }());
