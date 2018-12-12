@@ -395,18 +395,11 @@ figure {
 #fh5co-logo a:hover, #fh5co-logo a:focus {
   color: #F78536 !important;
 }
-#fh5co-menu-wrap1 {
-  position: relative;
-  z-index: 2;
-  display: block;
-  float:right;
-  margin-top: 15px;
-}
 #fh5co-menu-wrap {
   position: relative;
   z-index: 2;
   display: block;
-  float:left;
+  float:right;
   margin-top: 15px;
 }
 #fh5co-menu-wrap .sf-menu a {
