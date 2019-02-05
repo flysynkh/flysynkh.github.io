@@ -442,13 +442,6 @@ section
 }
 .search_form
 {
-	position: absolute;
-	right: 15px;
-	top: 120px;
-    background: #fff;
-    border-top-left-radius: 25px;
-	width:400px;
-	height: 130px;
 	visibility: hidden;
 	opacity: 0;
 }
