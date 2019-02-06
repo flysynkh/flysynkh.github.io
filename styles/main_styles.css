@@ -1381,9 +1381,15 @@ section
 {
 	width: calc((100% - 30px) / 2);
 }
+.contact_form_mobile
+{
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    margin-top: 11px;
+}
 .contact_form_subject
 {
-	width: 100%;
+    width: calc((100% - 30px) / 2);
 	margin-top: 11px;
 }
 .contact_form_message

@@ -525,6 +525,16 @@
 		width: 100%;
 		margin-top: 11px;
 	}
+    .contact_form_mobile
+    {
+        width: 100%;
+        margin-top: 11px;
+    }
+    .contact_form_subject
+    {
+        width: 100%;
+        margin-top: 11px;
+    }
 	.form_submit_button
 	{
 		line-height: 44px;
