@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Fly weight Passenger's Service Private Limited  </title>
+    <title>Fly weight Passenger's Service Private Limited | Login & Registration </title>
     <link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,6 @@
     <meta name="keywords" content="flyweight,Passenger's, Service, fly, weight, flight, bus, hotels, holiday planer, cheap ticket rate, ">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
     <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/loader.css">
@@ -52,12 +49,12 @@
                         </div>
                         <div class="main_nav_container ml-auto">
                             <ul class="main_nav_list">
-                                <li class="main_nav_item"><a href="#">Home</a></li>
+                                <li class="main_nav_item"><a href="index.html">Home</a></li>
                                 <li class="main_nav_item"><a href="about.html">About Us</a></li>
                                 <li class="main_nav_item"><a href="#search_form_1">Flight</a></li>
                                 <li class="main_nav_item"><a href="#search_form_2">Bus</a></li>
                                 <li class="main_nav_item"><a href="#search_form_3">Hotels</a></li>
-                                <li class="main_nav_item"><a href="#contact">Contact Us</a></li>
+                                <li class="main_nav_item"><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="content_search ml-lg-0 ml-auto">
@@ -78,12 +75,12 @@
             <div class="menu_close_container"><div class="menu_close"></div></div>
             <div class="logo menu_logo"><a href="#"><img src="images/logo/favicon.png" alt=""></a></div>
             <ul>
-                <li class="menu_item"><a href="#">Home</a></li>
+                <li class="menu_item"><a href="index.html">Home</a></li>
                 <li class="menu_item"><a href="about.html">About Us</a></li>
                 <li class="menu_item"><a href="#search_form_1">Flight</a></li>
                 <li class="menu_item"><a href="#search_form_2">Bus</a></li>
                 <li class="menu_item"><a href="#search_form_3">Hotels</a></li>
-                <li class="menu_item"><a href="#contact">Contact Us</a></li>
+                <li class="menu_item"><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -93,8 +90,8 @@
         <div class="row">
             <div class="col-md-3 register-left">
                 <img src="images/login/fly.png" alt=""/>
-                <h3>Welcome</h3>
-                <p></p>
+                <h3>Welcome To</h3>
+                <h4>Fly Weight Passenger's Service Private Limited</h4>
             </div>
             <div class="col-md-9  register-right">
                 <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -184,18 +181,11 @@
                                     <input type="text" class="form-control" placeholder="First Name *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                </div>
-                                <div class="form-group">
                                     <input type="email" class="form-control" placeholder="Email *" value="" />
                                 </div>
                                 <div class="form-group">
                                     <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
                                 </div>
-
-
-                            </div>
-                            <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="password" class="form-control" placeholder="Password *" value="" />
                                 </div>
@@ -203,15 +193,39 @@
                                     <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="form-control">
-                                        <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                        <option>What is your Birthdate?</option>
-                                        <option>What is Your old Phone Number</option>
-                                        <option>What is your Pet Name?</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Organisation Name *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                                    <input type="text" class="form-control" placeholder="City *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="PAN No *" value="" />
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="City *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="PAN No *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    Upload PAN CARD
+                                    <input type="file" class="form-control" placeholder="" value="" />
+                                </div>
+                                <div class="form-group">
+                                    Upload Any Photo Id Proof
+                                    <input type="file" class="form-control" placeholder="" value="" />
+                                </div>
+                                <div class="form-group">
+                                    Are you a Travel agent
+                                    <input type="radio" name="travel_agent" class="form-control" value="yes" /> Yes
+                                    <input type="radio" name="travel_agent" class="form-control" value="no" />No
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" name="travel_agent" class="form-control" value="yes" /> I Accept all <a>Terms & Condition</a>
                                 </div>
                                 <input type="submit" class="btnRegister"  value="Register"/>
                             </div>
@@ -236,7 +250,7 @@
                             <div class="logo_container footer_logo">
                                 <div class="logo"><a href="#"><img src="images/logo/logo1.png" alt=""></a></div>
                             </div>
-                            <p class="footer_about_text">flyweight is a Bangalore based company which is established in 2018, flyweight deals with the passenger service. Where the customer can book a flight ticket, baggage, weekend trips, hotels, etc. Flyweight aims to promote tourism to a nation. We work 24/7 to give the best service to a customer</p>
+                            <p class="footer_about_text">Flyweight Passenger's service private Limited is a Bangalore based company which is established in 2019, flyweight deals with the passenger service. Where the customer can book a flight ticket, baggage, weekend trips, hotels, etc. Flyweight aims to promote tourism to a nation. We work 24/7 to give the best service to a customer</p>
                         </div>
                     </div>
                 </div>
@@ -308,12 +322,12 @@
                     <div class="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
                         <div class="footer_nav">
                             <ul class="footer_nav_list">
-                                <li class="footer_nav_item"><a href="#">home</a></li>
+                                <li class="footer_nav_item"><a href="index.html">home</a></li>
                                 <li class="footer_nav_item"><a href="about.html">about us</a></li>
                                 <li class="footer_nav_item"> <a href="#search_form_1">Flight</a></li>
                                 <li class="footer_nav_item"> <a href="#search_form_2">Bus</a></li>
                                 <li class="footer_nav_item"> <a href="#search_form_3">Hotels</a></li>
-                                <li class="footer_nav_item"><a href="#contact">contact Us</a></li>
+                                <li class="footer_nav_item"><a href="contact.html">contact Us</a></li>
 
                             </ul>
                         </div>
